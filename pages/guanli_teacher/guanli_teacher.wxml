@@ -1,0 +1,17 @@
+<!--pages/guanli_teacher/guanli_teacher.wxml-->
+<view class='tm'>
+  <text>教师信息管理</text>
+</view>
+<view class='tb'>
+  <text>姓名</text>
+  <text>性别</text>
+  <text>用户编号</text>
+  <text>密码</text>
+  <text bindtap='add'>添加＋</text>
+</view>
+<view bindtap="xq" data-id="{{item.userID}}" class='user' wx:for='{{user_list}}' wx:key=''>
+  <input disabled class='name' value='{{item.name}}'></input>
+  <input disabled class='sex' value='{{item.sex}}'></input>
+  <input disabled class='userid' value='{{item.userID}}'></input>
+  <input disabled class='password' value='{{item.password}}'></input>
+</view>

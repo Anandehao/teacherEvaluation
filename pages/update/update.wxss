@@ -1,0 +1,41 @@
+/* pages/update/update.wxss */
+.topic {
+  border-bottom: 1rpx solid white;
+  width: 750rpx;
+  height: 60rpx;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+}
+.x{
+  border-bottom: 1rpx solid rgb(0, 162, 255);
+  height: 80rpx;
+  width: 750rpx;
+}
+
+.button1 {
+  height: 60rpx;
+  background: rgb(0, 162, 255);
+  color: white;
+}
+
+.pass {
+  font-size: 16px;
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.pass input {
+  border-bottom: 1rpx solid gainsboro;
+  width: 500rpx;
+  height: 60rpx;
+}
+
+.button {
+  width: 80%;
+  border-radius: 30px;
+  margin-top: 200rpx;
+  background: rgb(0, 162, 255);
+  color: white;
+}

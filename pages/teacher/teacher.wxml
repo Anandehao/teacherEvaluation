@@ -1,0 +1,95 @@
+<!--pages/teacher/teacher.wxml-->
+<view class='top'>
+  <text style='font-size:15px;'>沈阳职业技术学院</text>
+  <text style='font-size:10px;'>(教评教)</text>
+</view>
+<view class='title'>
+  <picker style='font-size:13px;'>教师</picker>
+  <picker style='font-size:13px;'>年 月 日</picker>
+</view>
+<form>
+  <view class='ti'>
+    <view class='ti_top'>
+      <view class='top1'>评价选项</view>
+      <view class='top2'>序号</view>
+      <view class='top3'>评价指标</view>
+      <view class='top4'>分数</view>
+    </view>
+    <!-- 第一框 前三题 -->
+    <view class='ti_1'>
+      <view class='ti1'>思想作风（满分30分）</view>
+      <view class='ti1_1'>
+        <view class='ti1_11'>
+          <view class='t1'>1</view>
+          <view class='t2'>树立高职教育人才观，质量观，教学观，勤奋好学，钻研业务，不断学习新知识，积极参与教学改革</view>
+          <view class='t3'>{{score0}}</view>
+        </view>
+        <view class='ti1_11'>
+          <view class='t1'>2</view>
+          <view class='t2'>热爱本职，工作热情高，不计个人得失，团结协作，作风正派</view>
+          <view class='t3'>{{score1}}</view>
+        </view>
+        <view class='ti1_111'>
+          <view class='t1'>3</view>
+          <view class='t2'>为人师表，尊重学生主体地位，关心学生进步，建立平等师生关系，文明授课，注意形体语言，自然大方</view>
+          <view class='t3'>{{score2}}</view>
+        </view>
+      </view>
+    </view>
+    <!-- 第二框 4-8题 -->
+    <view class='ti_2'>
+      <view class='ti2'>教学态度和教学能力（满分50分）</view>
+      <view class='ti2_2'>
+        <view class='ti2_22'>
+          <view class='t11'>4</view>
+          <view class='t22'>积极承担教学工作任务，责任心强，认真执行教学文件，授课计划完备，教案书写规范</view>
+          <view class='t33'>{{score3}}</view>
+        </view>
+        <view class='ti2_22'>
+          <view class='t11'>5</view>
+          <view class='t22'>遵守教学规章制度，注意教学的育人作用，研究善导，善于与学生交流，耐心辅导答疑，认真批改作业，对学生的考核成绩，评定公正准确</view>
+          <view class='t33'>{{score4}}</view>
+        </view>
+        <view class='ti2_22'>
+          <view class='t11'>6</view>
+          <view class='t22'>教学设计合理，控制自如，注意现代教学方法的应用，授课内容娴熟，语言表达生动清楚，讲授知识准确，重点突出，课容量达到要求</view>
+          <view class='t33'>{{score5}}</view>
+        </view>
+        <view class='ti2_22'>
+          <view class='t11'>7</view>
+          <view class='t22'>教学手段先进，实用，课堂气氛活跃，师生互动效果好，板书工整，设计合理，多媒体课件图文并茂，有创新</view>
+          <view class='t33'>{{score6}}</view>
+        </view>
+        <view class='ti2_222'>
+          <view class='t11'>8</view>
+          <view class='t22'>教学内容紧密联系实，际针对性强，实践经验丰富，实践教学组织有序，示范动作标准，指导学生方法适宜</view>
+          <view class='t33'>{{score7}}</view>
+        </view>
+      </view>
+    </view>
+    <!-- 第三框 9-10题 -->
+    <view class='ti_3'>
+      <view class='ti3'>教学效果（满分20分）</view>
+      <view class='ti3_3'>
+        <view class='ti3_33'>
+          <view class='t111'>9</view>
+          <view class='t222'>教学内容符合大纲要求，具有先进性，实用性，使学生的知识水平，动手操作能力，分析和解决问题的能力得到提高 </view>
+          <view class='t333'>{{score8}}</view>
+        </view>
+        <view class='ti3_333'>
+          <view class='t111'>10</view>
+          <view class='t222'>学生对教学印象深刻，对教学内容理解准确，掌握扎实，对教师水平整体评价高</view>
+          <view class='t333'>{{score9}}</view>
+        </view>
+      </view>
+    </view>
+    <view style="font-size:15px;margin-left:150rpx;">合计:{{score0+score1+score2+score3+score4+score5+score6+score7+score8+score9}}</view>
+  </view>
+  <view class='bottom'>
+    <text>评价指标说明：</text>
+    <text>1、评价人请在相应的分数栏划</text>
+    <text>2、≥90分为优秀，≥80-90分为良好，≥60-为一般，＜60为较差 </text>
+    <text>3、总分为100分 </text>
+  </view>
+  <!-- <button size='mini'>提交</button> -->
+</form>

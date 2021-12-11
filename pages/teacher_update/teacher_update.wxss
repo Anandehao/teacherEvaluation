@@ -1,0 +1,30 @@
+/* pages/teacher_update/teacher_update.wxss */
+.update{
+  height: 100rpx;
+  width: 750rpx;
+  border-bottom:5rpx solid rgb(0, 162, 255);
+  display: flex;
+  justify-content: center;
+}
+
+.tj{
+  border-bottom: 1rpx solid rgb(0, 162, 255);
+  font-size: 16px;
+  height: 60rpx;
+  width: 700rpx;
+  margin-left: 25rpx;
+  margin-top: 20rpx;
+  display: flex;
+}
+.xg{
+  width:70%;
+  border-radius: 30px;
+  background: rgb(0, 162, 255);
+  margin-top: 200rpx;
+}
+.sc{
+  width:70%;
+  border-radius: 30px;
+  background: rgb(255, 0, 106);
+  margin-top: 20rpx;
+}

@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/guanli_class/guanli_class",
+    "pages/student/student",
+    "pages/teacher_add/teacher_add",
+    "pages/teacher_update/teacher_update",
+    "pages/guanli_teacher/guanli_teacher",
+    "pages/teacher/teacher",
+    "pages/guanli/guanli",
+    "pages/xz/xz",
+    "pages/jpx/jpx",
+    "pages/jpj/jpj",
+    "pages/guanli_tiku/guanli_tiku",
+    "pages/guanli_jspj/guanli_jspj",
+    "pages/guanli_bjpj/guanli_bjpj",
+    "pages/guanli_pj/guanli_pj",
+    "pages/update/update"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

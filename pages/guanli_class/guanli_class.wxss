@@ -1,0 +1,88 @@
+/* pages/guanli_class/guanli_class.wxss */
+.tm {
+  border-bottom: 5rpx solid rgb(0, 162, 255);
+  width: 750rpx;
+  height: 100rpx;
+  font-size: 16px;
+  color: rgb(0, 162, 255);
+}
+.tmq{
+  width: 750;
+  display: flex;
+  justify-content: center;
+}
+.tj{
+  margin-left: 650rpx;
+}
+.class{
+  border-bottom: 1rpx solid rgb(0, 162, 255);
+  width: 750rpx;
+  height: 60rpx;
+  margin-top: 40rpx;
+  display: flex;
+}
+.id{
+  border-bottom: 1rpx solid rgb(0,162,255);
+  height: 60rpx;
+  width:100rpx;
+  margin-left: 50rpx;
+  font-size: 16px;
+}
+.cla{
+  border-bottom:1rpx solid rgb(0, 162, 255);
+  height: 60rpx;
+  width:300rpx;
+  margin-left: 40rpx; 
+  font-size: 16px;
+}
+.sc{
+  font-size: 16px;
+  color: rgb(0, 162, 255);
+  margin-left: 30rpx;
+}
+.mian{
+  border: 1rpx solid gainsboro;
+  height: 300rpx;
+  width:600rpx;
+  background: white;
+  position: absolute;
+  z-index: 100;
+  top: 200rpx;
+  left: 75rpx;
+  box-shadow: 1px 1px 1px 1px gray;
+}
+.tmt{
+  border-bottom: 5rpx solid rgb(0, 162, 255);
+  width: 600rpx;
+  height: 80rpx;
+  font-size: 16px;
+  color: rgb(0, 162, 255);
+  display: flex;
+  justify-content: center;
+}
+
+.kk{
+  border: 1rpx solid rgb(0, 162, 255);
+  height: 70rpx;
+  width: 500rpx;
+  margin-left: 50rpx;
+  border-radius: 20px;
+  margin-top: 30rpx;
+}
+.kk input{
+  border: 1rpx solid white;
+  width: 400rpx;
+  margin-left: 50rpx;
+  margin-top: 10rpx;
+}
+.mian button{
+  width: 200rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: rgb(0, 162, 255);
+  height: 60rpx;
+  margin-top: 20rpx;
+  color: white;
+}

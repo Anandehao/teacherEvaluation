@@ -1,0 +1,63 @@
+<!--index.wxml-->
+<view style='height:{{winHeight/winWidth*750}}rpx;'>
+  <view class='top'>
+    <image src='/images/jd.jpg'></image>
+  </view>
+  <view class='bottom'>
+    <view class="swiper-tab">
+      <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">教师登陆</view>
+      <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">管理员登陆</view>
+    </view>
+    <swiper current="{{currentTab}}" class="swiper-box" duration="300" bindchange="bindChange" style='height:{{winHeight/winWidth*750-505}}rpx;'>
+      <swiper-item>
+        <form bindsubmit="t_login" class="login-from">
+          <!--账号-->
+          <view class="inputView">
+            <image class="nameImage" src="/images/user.png"></image>
+            <view class="loginLab">账号</view>
+            <input name='username' class="inputText" placeholder="请输入账号" />
+          </view>
+          <view class="line"></view>
+          <!--密码-->
+          <view class="inputView">
+            <image class="keyImage" src="/images/psw.png"></image>
+            <view class="loginLab">密码</view>
+            <input name='password' class="inputText" password="true" placeholder="请输入密码" />
+          </view>
+          <!--按钮-->
+          <view class="loginBtnView">
+            <button class="loginBtn" formType="submit">登录</button>
+          </view>
+          <view bindtap='update' class='mima'>
+            <text>修改密码</text>
+          </view>
+        </form>
+      </swiper-item>
+      <swiper-item>
+        <form bindsubmit="a_login" class="login-from">
+          <!--账号-->
+          <view class="inputView">
+            <image class="nameImage" src="/images/user.png"></image>
+            <view class="loginLab">账号</view>
+            <input name='username' class="inputText" placeholder="请输入账号" />
+          </view>
+          <view class="line"></view>
+          <!--密码-->
+          <view class="inputView">
+            <image class="keyImage" src="/images/psw.png"></image>
+            <view class="loginLab">密码</view>
+            <input name='password' class="inputText" password="true" placeholder="请输入密码" />
+          </view>
+          <!--按钮-->
+          <view class="loginBtnView">
+            <button class="loginBtn" formType="submit">登录</button>
+          </view>
+        </form>
+          <view bindtap='update' class='mima'>
+            <text>修改密码</text>
+          </view>
+      </swiper-item>
+    </swiper>
+
+  </view>
+</view>

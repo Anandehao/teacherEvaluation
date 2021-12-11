@@ -1,0 +1,16 @@
+/* pages/guanli/guanli.wxss */
+.gl{
+display: flex;
+justify-content: center;
+color: rgb(0, 162, 255);
+}
+.kk{
+  border-bottom: 1rpx solid rgb(0, 162, 255);
+  height: 60rpx;
+  width: 700rpx;
+  margin-left: 25rpx;
+  margin-top: 30rpx;
+}
+.kk text{
+  font-size: 16px;
+}

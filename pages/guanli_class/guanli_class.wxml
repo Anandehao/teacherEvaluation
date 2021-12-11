@@ -1,0 +1,46 @@
+<!--pages/guanli_class/guanli_class.wxml-->
+<view class="tm">
+  <view class="tmq">班级信息管理</view>
+  <view bindtap="create" wx:if='{{ff1}}' class="tj">添加</view>
+  <view bindtap="cancel" wx:if='{{ff}}' class="tj">取消</view>
+</view>
+<view wx:if='{{tt}}' wx:for='{{class_list}}' wx:key='' class="class">
+  <view class='id'>
+    {{item.classID}}
+  </view>
+  <view class="cla">
+    <input disabled value="{{item.className}}"></input>
+  </view>
+  <view bindtap="update" class="sc">
+    修改
+  </view>
+  <view bindtap="delete" data-id="{{item.classID}}" class="sc">
+    删除
+  </view>
+</view>
+
+<view wx:if='{{tt1}}' wx:for='{{class_list}}' wx:key='' class="class">
+  <view class='id'>
+    {{item.classID}}
+  </view>
+  <view class="cla">
+    <input value="{{item.className}}"></input>
+  </view>
+  <view bindtap="ok" class="sc">
+    完成
+  </view>
+  <view bindtap="delete" data-id="{{item.classID}}" class="sc">
+    删除
+  </view>
+</view>
+<form bindsubmit="submit">
+<view wx:if='{{ff}}' class="mian">
+  <view class="tmt">
+    添加
+  </view>
+  <view class="kk">
+    <input name='class' placeholder=" 例：17软件03班"></input>
+  </view>
+  <button form-type="submit">确定</button>
+</view>
+</form>

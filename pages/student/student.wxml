@@ -1,0 +1,95 @@
+<!--pages/teacher/teacher.wxml-->
+<view class='top'>
+  <text style='font-size:15px;'>沈阳职业技术学院</text>
+  <text style='font-size:10px;'>(教评学)</text>
+</view>
+<view class='title'>
+  <text style='font-size:13px;'>班级:{{classname}}</text>
+  <text style='font-size:13px;'>年 月 日</text>
+</view>
+<form>
+  <view class='ti'>
+    <view class='ti_top'>
+      <view class='top1'>评价选项</view>
+      <view class='top2'>序号</view>
+      <view class='top3'>评价指标</view>
+      <view class='top4'>分数</view>
+    </view>
+    <!-- 第一框 前三题 -->
+    <view class='ti_1'>
+      <view class='ti1'>学习态度（满分30分）</view>
+      <view class='ti1_1'>
+        <view class='ti1_11'>
+          <view class='t1'>1</view>
+          <view class='t2'>学习主动性强作业实验实习报告及时完成</view>
+          <view class='t3'>{{score0}}</view>
+        </view>
+        <view class='ti1_11'>
+          <view class='t1'>2</view>
+          <view class='t2'>遵守学校各项规章制度，上课不迟到，不早退，不旷课，遵守考试纪律，不弄虚作假，诚信守时，成绩真实</view>
+          <view class='t3'>{{score1}}</view>
+        </view>
+        <view class='ti1_111'>
+          <view class='t1'>3</view>
+          <view class='t2'>对教学中存在的问题正确对待，并提出合理建议</view>
+          <view class='t3'>{{score2}}</view>
+        </view>
+      </view>
+    </view>
+    <!-- 第二框 4-8题 -->
+    <view class='ti_2'>
+      <view class='ti2'>学习过程（满分50分）</view>
+      <view class='ti2_2'>
+        <view class='ti2_22'>
+          <view class='t11'>4</view>
+          <view class='t22'>课堂注意听讲，积极发言，做好学习笔记，实验实训课，注意观察，按要求认真操作，勤学好问，肯于钻研思考，积极开展讨论性学</view>
+          <view class='t33'>{{score3}}</view>
+        </view>
+        <view class='ti2_22'>
+          <view class='t11'>5</view>
+          <view class='t22'>积极到教学基地参加实习活动，不怕苦不怕累，动手实践能力强，表现好</view>
+          <view class='t33'>{{score4}}</view>
+        </view>
+        <view class='ti2_22'>
+          <view class='t11'>6</view>
+          <view class='t22'>积极主动与教师进行沟通，交流学习体会，提出个人的看法或想法，具有独到的见解，积极参与教师的教学活动</view>
+          <view class='t33'>{{score5}}</view>
+        </view>
+        <view class='ti2_22'>
+          <view class='t11'>7</view>
+          <view class='t22'>不断扩展专业基本理论知识，增强基本技能，经常自我检查学习情况，自我评价，客观真实，并能正确对待自己的优缺点</view>
+          <view class='t33'>{{score6}}</view>
+        </view>
+        <view class='ti2_222'>
+          <view class='t11'>8</view>
+          <view class='t22'>理论能与实际相结合，将理论知识应用到生产实践中，熟练掌握信息收集方法，能够正确处理和应用信息</view>
+          <view class='t33'>{{score7}}</view>
+        </view>
+      </view>
+    </view>
+    <!-- 第三框 9-10题 -->
+    <view class='ti_3'>
+      <view class='ti3'>学习效果（满分20分）</view>
+      <view class='ti3_3'>
+        <view class='ti3_33'>
+          <view class='t111'>9</view>
+          <view class='t222'>基本理论知识掌握的好，理解透彻会应用，基本技能掌握得牢固，实践技能成绩良好 </view>
+          <view class='t333'>{{score8}}</view>
+        </view>
+        <view class='ti3_333'>
+          <view class='t111'>10</view>
+          <view class='t222'>分析和解决问题能力，语言表达等综合能力，得到明显提高，学习成绩良好</view>
+          <view class='t333'>{{score9}}</view>
+        </view>
+      </view>
+    </view>
+    <view style="font-size:15px;margin-left:150rpx;">合计:{{score0+score1+score2+score3+score4+score5+score6+score7+score8+score9}}</view>
+  </view>
+  <view class='bottom'>
+    <text>评价指标说明：</text>
+    <text>1、评价人请在相应的分数栏划</text>
+    <text>2、≥90分为优秀，≥80-90分为良好，≥60-为一般，＜60为较差 </text>
+    <text>3、总分为100分 </text>
+  </view>
+  <!-- <button size='mini'>提交</button> -->
+</form>

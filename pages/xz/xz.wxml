@@ -1,0 +1,26 @@
+<!--pages/xz/xz.wxml-->
+<view class='mian'>
+  <view class='kk' bindtap='pjx'>
+    <view class='qq'>
+      <text>沈阳职业技术学院</text>
+    </view>
+    <view class='qq1'>
+      <text>教师评价学生标准</text>
+    </view>
+    <view class='qq2'>
+      <text>(教评学)</text>
+    </view>
+
+  </view>
+  <view class='kk1' bindtap='jpj'>
+    <view class='qq'>
+      <text>沈阳职业技术学院</text>
+    </view>
+    <view class='qq3'>
+      <text>教师教学工作总评标准</text>
+    </view>
+    <view class='qq2'>
+      <text>(教评教)</text>
+    </view>
+  </view>
+</view>

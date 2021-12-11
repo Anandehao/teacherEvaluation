@@ -1,0 +1,33 @@
+<!--pages/teacher_update/teacher_update.wxml-->
+<view class="update">
+修改
+</view>
+
+<form bindsubmit="submit">
+  <view class='tj'>
+    <text>姓名：</text>
+    <input name='name' value="{{name}}"></input>
+  </view>
+  <view class='tj'>
+    <text>性别：</text>
+    <picker mode='selector' bindchange='change' range='{{sex}}'>
+      <input name='sex' value="{{newsex}}"></input>
+    </picker>
+  </view>
+  <view class='tj'>
+    <text>用户编号：</text>
+    <input name='id' value="{{userid}}" ></input>
+  </view>
+   <view class='tj'>
+    <text>用户密码：</text>
+    <input name='password' value="{{password}}" ></input>
+  </view>
+  <view class='tj'>
+    <text>教研室：</text>
+    <picker mode='selector' bindchange="changa" range="{{office}}">
+      <input name='office' value="{{offic}}"></input>
+    </picker>
+  </view>
+  <button class="xg" form-type="submit">修改</button>
+  <button class="sc" bindtap="sc" data-userid="{{userid}}">删除</button>
+</form>

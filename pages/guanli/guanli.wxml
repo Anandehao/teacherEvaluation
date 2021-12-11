@@ -1,0 +1,28 @@
+<!--pages/guanli/guanli.wxml-->
+<view class='gl'>
+<text>管理</text>
+</view>
+
+<view class='kk' bindtap='teacher'>
+<text>· 教师管理</text>
+</view>
+
+<view class='kk' bindtap='class'>
+<text>· 班级管理</text>
+</view>
+
+<view class='kk' bindtap='class'>
+<text>· 教研室管理</text>
+</view>
+
+<view class='kk' bindtap='jspj'>
+<text>· 教师评教查询</text>
+</view>
+
+<view class='kk' bindtap='bjpj'>
+<text>· 班级评教查询</text>
+</view>
+
+<view class='kk' bindtap='pj'>
+<text>· 教师是否评教</text>
+</view>

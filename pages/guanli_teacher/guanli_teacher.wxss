@@ -1,0 +1,59 @@
+/* pages/guanli_teacher/guanli_teacher.wxss */
+
+.tm {
+  width: 750rpx;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  color: rgb(0, 162, 255);
+}
+
+.tb{
+  border-bottom: 5rpx solid rgb(0, 162, 255);
+  margin-top: 30rpx;
+}
+.tb text{
+  margin-left: 50rpx;
+  color: gray;
+  font-size: 16px;
+}
+
+.user {
+  border-bottom: 1rpx solid rgb(0, 162, 255);
+  height: 100rpx;
+  width: 750rpx;
+  display: flex;
+}
+
+.user .name {
+  border: 1rpx solid white;
+  height: 60rpx;
+  width: 180rpx;
+  font-size: 16px;
+  margin-top: 20rpx;
+  margin-left: 40rpx;
+}
+
+.user .sex {
+  border: 1rpx solid white;
+  height: 60rpx;
+  width: 80rpx;
+  font-size: 16px;
+   margin-top: 20rpx;
+}
+
+.user .userid {
+  border: 1rpx solid white;
+  height: 60rpx;
+  width: 300rpx;
+  font-size: 16px;
+   margin-top: 20rpx;
+}
+
+.user .password {
+  border: 1rpx solid white;
+  height: 60rpx;
+  width: 300rpx;
+  font-size: 16px;
+   margin-top: 20rpx;
+}

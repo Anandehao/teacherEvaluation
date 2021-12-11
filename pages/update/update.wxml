@@ -1,0 +1,26 @@
+<!--pages/update/update.wxml-->
+<view class='topic'>
+<text>修改密码</text>
+</view>
+<view class='x'>
+<button class='button1' bindtap='return' size='mini'>返回</button>
+</view>
+<form bindsubmit='submit'>
+<view class='pass'>
+<text>· 账户：</text>
+<input name='user'></input>
+</view> 
+<view class='pass'>
+<text>· 原始密码：</text>
+<input name='password'></input>
+</view> 
+<view class='pass'>
+<text>· 新密码：</text>
+<input name='newpassword'></input>
+</view> 
+<view class='pass'>
+<text>· 确认密码：</text>
+<input name='newpassword2'></input>
+</view>
+<button class='button' form-type='submit'>修改</button>
+</form>

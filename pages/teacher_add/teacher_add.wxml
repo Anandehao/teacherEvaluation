@@ -1,0 +1,27 @@
+<!--pages/teacher_add/teacher_add.wxml-->
+<view class='tm'>
+  <text>添加</text>
+</view>
+<form bindsubmit="submit">
+  <view class='tj'>
+    <text>姓名：</text>
+    <input name='name' placeholder='例：张三'></input>
+  </view>
+  <view class='tj'>
+    <text>性别：</text>
+    <picker mode='selector' bindchange='change' range='{{sex}}'>
+      <input name='sex' disabled value="{{newsex}}" placeholder='例：男'></input>
+    </picker>
+  </view>
+  <view class='tj'>
+    <text>用户编号：</text>
+    <input name='id' placeholder='例：201713050300'></input>
+  </view>
+  <view class='tj'>
+    <text>教研室：</text>
+    <picker mode='selector' bindchange="changa" range="{{office}}">
+      <input name='office' value="{{offic}}" disabled placeholder='例：软件教研室'></input>
+    </picker>
+  </view>
+  <button form-type="submit">添加</button>
+</form>

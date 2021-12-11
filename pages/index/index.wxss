@@ -1,0 +1,108 @@
+/**index.wxss**/
+.top{
+  border-bottom: 1px solid rgba(219, 219, 219, 0.4);
+  height: 425rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.top image{
+  /* border: 1px solid rebeccapurple; */
+  width: 650rpx;
+  height: 400rpx;
+}
+
+
+
+.swiper-tab {
+  width: 100%;
+  border-bottom: 1px solid rgba(219, 219, 219, 0.4);  
+  text-align: center;
+  line-height: 80rpx;
+}
+
+.swiper-tab-list {
+  font-size: 30rpx;
+  display: inline-block;
+  width: 50%;
+  color: black;
+}
+
+.on {
+  color: rgb(247, 22, 22);
+  border-bottom: 5rpx solid rgb(253, 19, 19);
+}
+
+.swiper-box {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.inputView {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  outline: 1px solid #e6e4e4;
+}
+
+
+.nameImage {
+  margin-left: 20rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.keyImage{
+  margin-left: 20rpx;
+  width: 35rpx;
+  height: 35rpx;
+}
+
+.loginLab {
+  margin: 20rpx 100rpx 20rpx 10rpx;
+  font-size: 14px;
+}
+
+.inputText {
+  text-align: left;
+  font-size: 14px;
+  width: 60%;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+}
+
+
+.loginBtnView {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.loginBtn {
+  width: 600rpx;
+  height: 90rpx;
+  border-radius: 90rpx;
+  margin-top: 35px;
+  background: rgb(250, 25, 44);
+  color: white;
+  font-size: 15px;
+  line-height: 90rpx;
+}
+.mima{
+  border: 1rpx solid white;
+  height: 60rpx;
+  width: 750rpx;
+  font-size: 15px;
+  margin-top: 280rpx;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,30 @@
+<!--pages/jpx/jpx.wxml-->
+<view>
+  <view class='tm'>
+    <text>沈阳职业技术学院教师评价学生标准</text>
+  </view>
+  <view class='tm1'>
+    <text>（教评学）</text>
+    <text bindtap="xz">选择班级 -></text>
+    <text> {{class_name}}</text>
+  </view>
+  <view wx:if='{{tt}}' class="mian">
+    <view wx:for='{{class_list}}' wx:key='' bindtap="xzclass" data-classname="{{item.className}}" class="claa">{{item.className}}</view>
+  </view>
+
+  <form bindsubmit="submit">
+    <view wx:for='{{subject_list}}' wx:key='' class='ti'>
+      <view class="tt">
+        {{item.subjectID-10}} {{item.subject}}
+      </view>
+      <radio-group name='score{{index}}'>
+        <radio color="#00A2FF" class='ra' value="10">优秀</radio>
+        <radio color="#00A2FF" class='ra' value="8">良好</radio>
+        <radio color="#00A2FF" class='ra' value="6">及格</radio>
+        <radio color="#00A2FF" class='ra' value="3">较差</radio>
+      </radio-group>
+    </view>
+    <button form-type="submit">提交</button>
+  </form>
+  <input value="-------------------------教评学------------------------"></input>
+</view>

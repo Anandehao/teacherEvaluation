@@ -1,0 +1,273 @@
+/* pages/teacher/teacher.wxss */
+.top{
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 1px solid gainsboro;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  width: 100%;
+  height: 50rpx;
+  /* border-bottom: 1px solid gainsboro; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.ti{
+  width: 700rpx;
+  height: 885rpx;
+  border: 2px solid black;
+  margin-left: 23rpx;
+}
+.ti_top{
+  width: 700rpx;
+  height: 80rpx;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+.top1{
+  width: 80rpx;
+  height: 80rpx;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black
+}
+.top2{
+  width: 50rpx;
+  height: 80rpx;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black
+}
+.top3{
+  width: 500rpx;
+  height: 80rpx;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black
+}
+.top4{
+  width: 40rpx;
+  height: 80rpx;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* 第一框 前三题 */
+.ti_1{
+  width: 700rpx;
+  height: 240rpx;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+.ti1{
+  width: 80rpx;
+  height: 240rpx;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black
+}
+.ti1_1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ti1_11{
+  width: 619rpx;
+  height: 240rpx;
+  display: flex;
+  border-bottom: 1px solid black;
+  flex-direction: row;
+}
+.ti1_111{
+  width: 619rpx;
+  height: 240rpx;
+  display: flex;
+  /* border-bottom: 1px solid black; */
+  flex-direction: row;
+}
+.t1{
+  width: 50rpx;
+  height: 80rpx;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black
+}
+.t2{
+  width: 500rpx;
+  height: 80rpx;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black
+}
+.t3{
+  width: 40rpx;
+  height: 80rpx;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 第二框 4-8题 */
+.ti_2{
+  width: 700rpx;
+  height: 400rpx;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+.ti2{
+  width: 80rpx;
+  height: 400rpx;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black
+}
+.ti2_2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ti2_22{
+  width: 619rpx;
+  height: 80rpx;
+  display: flex;
+  border-bottom: 1px solid black;
+  flex-direction: row;
+}
+.ti2_222{
+  width: 619rpx;
+  height: 80rpx;
+  display: flex;
+  /* border-bottom: 1px solid black; */
+  flex-direction: row;
+}
+.t11{
+  width: 50rpx;
+  height: 80rpx;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black
+}
+.t22{
+  width: 500rpx;
+  height: 80rpx;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black
+}
+.t33{
+  width: 40rpx;
+  height: 80rpx;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 第三框 9-10题 */
+.ti_3{
+  width: 700rpx;
+  height: 160rpx;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+.ti3{
+  width: 80rpx;
+  height: 160rpx;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black
+}
+.ti3_3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ti3_33{
+  width: 619rpx;
+  height: 80rpx;
+  display: flex;
+  border-bottom: 1px solid black;
+  flex-direction: row;
+}
+.ti3_333{
+  width: 619rpx;
+  height: 80rpx;
+  display: flex;
+  /* border-bottom: 1px solid black; */
+  flex-direction: row;
+}
+.t111{
+  width: 50rpx;
+  height: 80rpx;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black
+}
+.t222{
+  width: 500rpx;
+  height: 80rpx;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid black
+}
+.t333{
+  width: 40rpx;
+  height: 80rpx;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* 注释 */
+.bottom{
+  display: flex;
+  flex-direction: column;
+}
+.bottom text{
+  font-size: 10px;
+  margin-left: 50rpx;
+}
+button{
+  width: 30%;
+  position: absolute;
+  bottom: 10rpx;
+  margin-left: 250rpx;
+}

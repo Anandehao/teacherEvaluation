@@ -1,0 +1,27 @@
+/* pages/teacher_add/teacher_add.wxss */
+.tm{
+  border-bottom: 5rpx solid rgb(0, 162, 255);
+  height: 90rpx;
+  width: 750rpx;
+  display: flex;
+  justify-content: center;
+}
+.tm text{
+  font-size: 18px;
+  color: rgb(0, 162, 255);
+}
+.tj{
+  border-bottom: 1rpx solid rgb(0, 162, 255);
+  font-size: 16px;
+  height: 60rpx;
+  width: 700rpx;
+  margin-left: 25rpx;
+  margin-top: 20rpx;
+  display: flex;
+}
+button{
+  width:70%;
+  border-radius: 30px;
+  background: rgb(0, 162, 255);
+  margin-top: 200rpx;
+}

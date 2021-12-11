@@ -1,0 +1,54 @@
+/* pages/xz/xz.wxss */
+.mian{
+  border: 1rpx solid papayawhip;
+  height: 1200rpx;
+  width: 750rpx;
+  align-items: center;
+ background: papayawhip;
+}
+.kk{
+  border: 1rpx solid palegreen;
+  border-radius: 10px;
+  height: 400rpx;
+  width: 500rpx;
+  margin-top: 150rpx;
+  margin-left: 125rpx;
+  background:  palegreen ;
+
+}
+.kk1{
+  border: 1rpx solid paleturquoise;
+  border-radius: 10px;
+  height: 400rpx;
+  width: 500rpx;
+  margin-left: 125rpx;
+  background: paleturquoise;
+
+}
+.qq{
+  margin-top: 30rpx;
+  margin-left: 100rpx;
+}
+.qq text{
+  font-size: 19px;
+}
+.qq1{
+  margin-top: 80rpx;
+  margin-left: 120rpx;
+}
+.qq1 text{
+  font-size: 16px;
+}
+.qq2{
+  margin-left: 190rpx;
+}
+.qq2 text{
+  font-size: 14px;
+}
+.qq3{
+  margin-top: 80rpx;
+  margin-left: 90rpx;
+}
+.qq3 text{
+  font-size: 16px;
+}
